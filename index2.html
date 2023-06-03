@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+
+<body>
+    <header>
+    <button class="again" onclick="playagain()" id="Play">PLAY AGAIN !</button>
+     <h1>GUESS MY NUMBER!</h1>
+     <p class="btw">(BETWEEN 1 TO 100)</p>
+     <div class="mark">?</div>
+    </header>
+      <p id="Start" class="guess">Start Guessing..!</p>
+     <p id="chance" class="counts">💯 Chances: 100</p>
+     <p id="score" class="highscore">🥇 Highscore: 0</p>
+    
+    <input type="number" id="name" >
+    <button onclick="checkNumber()">CHECK!</button>   
+    <script src="./script2.js"></script>
+</body>
+
+</html>
